@@ -11,7 +11,7 @@ import Auth from "./modals/Auth";
 import ProductCategory from "./pages/ProductCategory";
 import Address from "./pages/Address";
 import MyOrders from "./pages/MyOrders";
-import SellerLogin from "./components/seller/SellerLogin";
+import SellerLogin from "./components/seller/Sellerlogin";
 import SellerLayout from "./pages/seller/SellerLayout";
 import AddProduct from "./pages/seller/AddProduct";
 import ProductList from "./pages/seller/ProductList";
