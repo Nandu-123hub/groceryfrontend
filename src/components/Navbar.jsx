@@ -78,12 +78,20 @@ const Navbar = () => {
             </ul>
           </div>
         ) : (
+          <>
           <button
             onClick={() => setShowUserLogin(true)}
             className="px-6 py-2 bg-indigo-500 text-white rounded-full"
           >
             Login
           </button>
+          <button
+            onClick={() => navigate('/seller')}
+            className="px-6 py-2 bg-indigo-500 text-white rounded-full"
+          >
+            Seller Login
+          </button>
+          </>
         )}
       </div>
 
