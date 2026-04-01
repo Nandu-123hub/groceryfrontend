@@ -145,6 +145,7 @@ const Navbar = () => {
             <button onClick={logout}>Logout</button>
           </>
         ) : (
+          <>
           <button
             onClick={() => {
               setOpen(false);
@@ -154,6 +155,15 @@ const Navbar = () => {
           >
             Login
           </button>
+          <button
+            onClick={() => {
+              navigate('/seller')
+            }}
+            className="bg-indigo-500 text-white py-2 rounded"
+          >
+            Seller Login
+          </button>
+          </>
         )}
       </div>
     </nav>
