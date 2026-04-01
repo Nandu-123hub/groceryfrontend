@@ -24,6 +24,7 @@ export const AppContextProvider = ({ children }) => {
         setIsSeller(true);
       } else {
         setIsSeller(false);
+        //toast.error(data.message);
       }
     } catch (error) {
       setIsSeller(false);
@@ -38,7 +39,7 @@ export const AppContextProvider = ({ children }) => {
         setUser(data.user);
         setCartItems(data.user.cart);
       } else {
-        toast.error(data.message);
+        //toast.error(data.message);
       }
     } catch (error) {
       toast.error(error.message);
